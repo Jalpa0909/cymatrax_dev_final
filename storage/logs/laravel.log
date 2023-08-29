@@ -3671,3 +3671,101 @@
 #44 E:\\xampp\\htdocs\\cymatrax_dev\\index.php(21): require_once('E:\\\\xampp\\\\htdocs...')
 #45 {main}
 "} 
+[2023-08-29 03:22:38] local.ERROR: rename(C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\pac2754.tmp,C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\pac2754.tmp,C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:159)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 159)
+#1 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(159): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(181): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#3 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(136): Illuminate\\Foundation\\PackageManifest->write(Array)
+#4 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(106): Illuminate\\Foundation\\PackageManifest->build()
+#5 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(89): Illuminate\\Foundation\\PackageManifest->getManifest()
+#6 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#7 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#8 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#9 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#10 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#11 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2023-08-29 03:22:38] local.ERROR: rename(C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\ser2801.tmp,C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\ser2801.tmp,C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:159)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 159)
+#1 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(159): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(194): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#3 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(165): Illuminate\\Foundation\\ProviderRepository->writeManifest(Array)
+#4 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2023-08-29 03:22:38] local.ERROR: rename(C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\ser27C2.tmp,C:\xampp\htdocs\cymatrax_dev_final\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\ser27C2.tmp,C:\\xampp\\htdocs\\cymatrax_dev_final\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:159)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'rename(C:\\\\xampp...', 'C:\\\\xampp\\\\htdocs...', 159)
+#1 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(159): rename('C:\\\\xampp\\\\htdocs...', 'C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(194): Illuminate\\Filesystem\\Filesystem->replace('C:\\\\xampp\\\\htdocs...', '<?php return ar...')
+#3 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(165): Illuminate\\Foundation\\ProviderRepository->writeManifest(Array)
+#4 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2023-08-29 03:22:39] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php:809
+Stack trace:
+#0 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php(809): ReflectionClass->__construct('view')
+#1 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php(691): Illuminate\Container\Container->build('view')
+#2 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#3 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#4 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(781): Illuminate\Container\Container->make('view', Array)
+#5 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(119): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php:811
+Stack trace:
+#0 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php(691): Illuminate\Container\Container->build('view')
+#1 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(796): Illuminate\Container\Container->resolve('view', Array, true)
+#2 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Container\Container.php(637): Illuminate\Foundation\Application->resolve('view', Array)
+#3 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(781): Illuminate\Container\Container->make('view', Array)
+#4 C:\xampp\htdocs\cymatrax_dev_final\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(119): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:809
+Stack trace:
+#0 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(809): ReflectionClass->__construct('view')
+#1 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(691): Illuminate\\Container\\Container->build('view')
+#2 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(796): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(637): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(781): Illuminate\\Container\\Container->make('view', Array)
+#5 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(119): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:811
+Stack trace:
+#0 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(691): Illuminate\\Container\\Container->build('view')
+#1 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(796): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(637): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(781): Illuminate\\Container\\Container->make('view', Array)
+#4 C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(119): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\cymatrax_dev_final\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:811)
+[stacktrace]
+#0 {main}
+"} 
+[2023-08-29 03:22:39] local.ERROR: Cannot redeclare get_free_trial_days() (previously declared in C:\xampp\htdocs\cymatrax_dev_final\app\Helper.php:8) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare get_free_trial_days() (previously declared in C:\\xampp\\htdocs\\cymatrax_dev_final\\app\\Helper.php:8) at C:\\xampp\\htdocs\\cymatrax_dev_final\\app\\Helper.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2023-08-29 03:23:38] local.ERROR: Cannot redeclare get_free_trial_days() (previously declared in C:\xampp\htdocs\cymatrax_dev_final\app\Helper.php:8) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare get_free_trial_days() (previously declared in C:\\xampp\\htdocs\\cymatrax_dev_final\\app\\Helper.php:8) at C:\\xampp\\htdocs\\cymatrax_dev_final\\app\\Helper.php:7)
+[stacktrace]
+#0 {main}
+"} 
